@@ -21,3 +21,7 @@
     - name: demo
       vars:
         MSG: Hello
+
+    - name: demo
+      vars:
+        MSG: World
