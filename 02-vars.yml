@@ -18,7 +18,7 @@
   tasks:
     - name: Print a Variable
       ansible.builtin.debug:
-        msg: "URL = {{URL1}}"
+        msg: "URL = {{URL}}"
 
 - name: Demo on File variables
   hosts: all
@@ -28,3 +28,10 @@
     - name: Print a Variable
       ansible.builtin.debug:
         msg: "URL = {{URL}}"
+
+- name: Demo on facts
+  hosts: all
+  tasks:
+    - name: Print a fact variable
+      debug:
+        msg: "Hostname = {{ansible_fqdn}}"
