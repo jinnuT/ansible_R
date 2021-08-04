@@ -1,7 +1,7 @@
 - name: Install a package
   hosts: all
   become: yes
-  ## Here all tasks run as root user
+  ## Here all tasks run as root user.
   tasks:
     - name: Install nodejs
       become: yes
