@@ -13,7 +13,7 @@
 
 - name: Copy the extracted content
   copy:
-    src: /tmp/catloguea-main/
+    src: /tmp/catalogue-main/
     dest: /home/roboshop/catalogue/
     remote_src: yes
 
