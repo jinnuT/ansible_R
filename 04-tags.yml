@@ -19,7 +19,7 @@
 - name: Ubuntu Tags
   hosts: localhost
   tags:
-    - ubunut
+    - ubuntu
   tasks:
     - name: Ubuntu Task
       debug:
