@@ -1,4 +1,4 @@
-- name: Demo on tasgs
+- name: Demo on tags
   hosts: localhost
   tasks:
     - name: Ubuntu Task
