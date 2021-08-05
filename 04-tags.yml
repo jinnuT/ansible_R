@@ -16,3 +16,21 @@
         - redhat
 
 
+- name: Ubuntu Tags
+  hosts: localhost
+  tags:
+    - ubunut
+  tasks:
+    - name: Ubuntu Task
+      debug:
+        msg: Ubuntu Task
+
+- name: CentOS Tags
+  hosts: localhost
+  tags:
+    - centos
+  tasks:
+    - name: CentOS Task
+      debug:
+        msg: CentOS Task
+
