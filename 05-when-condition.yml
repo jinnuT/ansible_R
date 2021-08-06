@@ -8,3 +8,7 @@
       debug:
         msg: Heloo
 
+    - name: Conditon on strings
+      when: URL =! "google.com"
+      debug:
+        msg: Heloo
