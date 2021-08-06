@@ -67,3 +67,5 @@
     query: uninstall plugin validate_password
     login_password: RoboShop@1
     login_user: root
+  ignore_errors: yes
+
